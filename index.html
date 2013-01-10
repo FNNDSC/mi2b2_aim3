@@ -1,2 +1,76 @@
 <html>
+<head>
+<title>MI2B2 Web-based Testing Platform</title>
+
+<link rel="stylesheet" href="css/smoothness/jquery-ui-1.9.2.custom.css">
+<link rel="stylesheet" href="css/jqtree.css">
+<link rel="stylesheet" href="css/main.css">
+<link href="css/reset.css" media="screen" rel="stylesheet" type="text/css">
+<link href="css/slickQuiz.css" rel="stylesheet" type="text/css">
+<link href="css/master.css" rel="stylesheet" type="text/css">
+
+<!-- libs -->
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="js/dialog.jquery.js"></script>
+<script src="js/tree.jquery.js"></script>
+<script src="js/xtk_edge.js"></script>
+<script src="js/slickQuiz.js"></script>
+<script src="js/ui.utils.js"></script>
+<script src="js/scene.utils.js"></script>
+
+<!-- LIVER TUTORIAL -->
+<script src="liver/slickQuiz-config.js"></script>
+<!-- this is the entry point -->
+<script src="liver/xtk_scene.js"></script>
+
+</head>
+
+<body>
+
+	<div id='model_tree' title='Anatomical Structures'
+		style="background: url('gfx/b50.png')">
+		<div id='tree'></div>
+	</div>
+
+	<div id='quiz' title='Training' style="background: url('gfx/b50.png')">
+		<div id='slickQuiz'>
+
+			<h1 class="quizName">
+				<!-- where the quiz name goes -->
+			</h1>
+
+			<div class="quizArea">
+				<div class="quizHeader">
+					<!-- where the quiz main copy goes -->
+
+					<button class="button startQuiz">Get Started!</button>
+				</div>
+
+				<!-- where the quiz gets built -->
+			</div>
+
+			<div class="quizResults">
+				<h3 class="quizScore">
+					<strong>You Scored:</strong> <span>
+						<!-- where the quiz score goes -->
+					</span>
+				</h3>
+
+				<h3 class="quizLevel">
+					<strong>Ranking:</strong> <span>
+						<!-- where the quiz ranking level goes -->
+					</span>
+				</h3>
+
+				<div class="quizResultsCopy">
+					<!-- where the quiz result copy goes -->
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
 </html>

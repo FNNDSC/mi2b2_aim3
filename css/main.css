@@ -1,0 +1,33 @@
+html,body {
+	background-color: #000;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden !important;
+	font-family: sans-serif;
+	font-size: 11px;
+	color: white;
+}
+
+button {
+	padding: 0px;
+	vertical-align: middle;
+}
+
+.slider {
+	height: 3px;
+	margin: 10px;
+	width: 160px;
+}
+
+#slider_yellow {
+  background: yellow;
+}
+
+#slider_red {
+  background: red;
+}
+
+#slider_green {
+  background: green;
+}
